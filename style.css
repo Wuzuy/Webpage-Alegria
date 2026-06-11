@@ -134,9 +134,20 @@ footer{
 }
 
 a{
+    font-size: 20px;
     color: rgb(253, 232, 164);
     text-decoration: none;
     background-color: rgb(255, 166, 1);
-    padding: 10px;
+    padding: 20px;
     border-radius: 5px;
+}
+
+a:hover{
+    font-size: 22px;
+    background-color: rgb(112, 73, 0);
+    transition: 0.3s;
+}
+
+#link2{
+    margin-bottom: 50px;
 }
