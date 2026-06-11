@@ -5,7 +5,10 @@ function logar() {
     if (!login || !senha ) {
         alert("ERRO: PREENCHA TODOS OS CAMPOS");
         return false;
-    } else if (login === "login" && senha === "senha") {
-        
+    } else if (login === "admin" && senha === "admin") {
+        alert("Login bem-sucedido!");
+        window.location.href="index.html";
+    } else {
+        alert("ERRO: LOGIN OU SENHA INCORRETOS");
     }
 }
