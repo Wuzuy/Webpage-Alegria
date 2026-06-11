@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Clientes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="formularioCadastroClientes.php" onsubmit="validacao()" method="post">
+        <label>ID Cliente</label>
+        <input type="text" id="id_cliente" name="id_cliente">
+        <label>Nome</label>
+        <input type="text" id="nome" name="nome">
+        <label>CPF</label>
+        <input type="text" id="cpf" name="cpf">
+        <label>Telefone</label>
+        <input type="text" id="telefone" name="telefone">
+        <label>Email</label>
+        <input type="text" id="email" name="email">
+        <label>Data de Cadastro</label>
+        <input type="text" id="data_cadastro" name="data_cadastro">
+        <button type="submit">ENVIAR</button>
+    </form>
+<script src="validacaoCadastroClientes.js"></script>
+</body>
+</html>

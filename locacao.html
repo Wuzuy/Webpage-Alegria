@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="formularioLocacao.php" onsubmit="validacao()" method="post">
+        <label>ID Locação</label>
+        <input type="text" id="id_locacao" name="id_locacao">
+        <label>Nome Cliente</label>
+        <input type="text" id="nome_cliente" name="nome_cliente">
+        <label>Data Evento</label>
+        <input type="text" id="data_evento" name="data_evento">
+        <label>Horário Início</label>
+        <input type="text" id="horario_inicio" name="horario_inicio">
+        <label>Horário Fim</label>
+        <input type="text" id="horario_fim" name="horario_fim">
+        <label>Tipo Evento</label>
+        <input type="text" id="tipo_evento" name="tipo_evento">
+        <label>Quantidade Convidados</label>
+        <input type="text" id="quantidade_convidados" name="quantidade_convidados">
+        <label>Valor Locação</label>
+        <input type="text" id="valor_locacao" name="valor_locacao">
+        <label>Status Locação</label>
+        <input type="text" id="status_locacao" name="status_locacao">
+        <label>Observações</label>
+        <input type="text" id="observacoes" name="observacoes">
+        <button type="submit">ENVIAR</button>
+    </form>
+<script src="validacaoLocacao.js"></script>
+</body>
+</html>
